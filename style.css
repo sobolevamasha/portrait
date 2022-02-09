@@ -1,0 +1,14 @@
+body {
+    overflow: hidden;
+}
+
+div p {
+    background-image: url(./photo.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 12px;
+}
